@@ -133,9 +133,13 @@ nav ul a:hover::before {
   nav {
     flex-direction: row-reverse;
     justify-content: flex-end;
-    gap: 35%;
+    gap: 36.5vw;
     padding: 10vw;
     z-index: 11;
+  }
+
+  .logo {
+    transform: translateX(-50%);
   }
 
   nav ul {
